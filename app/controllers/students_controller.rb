@@ -1,5 +1,4 @@
 class StudentsController < ApplicationController
-
     def new
         @student = Student.new
     end
@@ -29,5 +28,4 @@ class StudentsController < ApplicationController
     def student_params
         params.require(:student).permit!
     end
-
 end

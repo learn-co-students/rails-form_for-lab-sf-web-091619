@@ -23,10 +23,6 @@ class SchoolClassesController < ApplicationController
         @school_class = SchoolClass.find(params[:id])
     end
 
-    
-
-    
-
     private
 
     def school_class_params

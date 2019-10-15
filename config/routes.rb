@@ -3,6 +3,5 @@ Rails.application.routes.draw do
   # http://guides.rubyonrails.org/routing.html
 
   resources :school_classes, except: [:destroy, :index]
-
   resources :students, except: [:destroy, :index]
 end
